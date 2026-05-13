@@ -1,2 +1,11 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/KEr3YAoF)
-[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=23907007)
+# Atividade API de Eleições
+
+## Passos:
+-  Clone o repositorio na máquina local
+- Crie o ambiente virtual e instale o requirements.txt
+
+## Teste Swagger
+- Entre na pasta de eleicoes_api
+- Rode o servidor com o comando "python manage.py runserver"
+- Na URL acrescente "/swagger"
+- Abrirá a página do swagger, onde você pode testar os métodos GET, POST, PUT, PATCH e DELETE
