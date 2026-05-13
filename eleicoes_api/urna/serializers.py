@@ -53,7 +53,7 @@ class RegistroVotacaoSerializer(serializers.ModelSerializer):
 
     class Meta:
         model= RegistroVotacao
-        read_only_fields = '__all__'
+        fields = '__all__'
 
 class VotoSerializer(serializers.ModelSerializer):
 
@@ -62,7 +62,7 @@ class VotoSerializer(serializers.ModelSerializer):
 
     class Meta:
         model=Voto
-        read_only_fields = ['candidato_nome_urna','branco_display','eleicao', 'candidato', 'em_branco', 'data_hora']
+        fields = ['candidato_nome_urna','branco_display','eleicao', 'candidato', 'em_branco', 'data_hora']
         write_only_fields = ['comprovante_hash']
 
     def get_branco_display(self,obj):
