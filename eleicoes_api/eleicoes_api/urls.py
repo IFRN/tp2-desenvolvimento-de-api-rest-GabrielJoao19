@@ -20,6 +20,7 @@ router.register(r'candidatos', CandidatoViewSet)
 router.register(r'aptidoes-eleitor', AptidaoEleitorViewSet)
 router.register(r'registros', RegistroVotacaoViewSet)
 router.register(r'votos', VotoViewSet)
+router.register(r'eleicoes', EleicaoViewSet)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
